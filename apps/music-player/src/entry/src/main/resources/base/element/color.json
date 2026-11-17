@@ -1,0 +1,88 @@
+{
+  "color": [
+    {
+      "name": "start_window_background",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "primary_light",
+      "value": "#ec5c87"
+    },
+    {
+      "name": "primary_dark",
+      "value": "#4bb0c4"
+    },
+    {
+      "name": "diy_little_red",
+      "value": "#EF9A9A"
+    },
+    {
+      "name": "diy_some_red",
+      "value": "#E53935"
+    },
+    {
+      "name": "diy_little_pink",
+      "value": "#F48FB1"
+    },
+    {
+      "name": "diy_some_pink",
+      "value": "#D81B60"
+    },
+    {
+      "name": "diy_little_orange",
+      "value": "#FFCC80"
+    },
+    {
+      "name": "diy_some_orange",
+      "value": "#FB8C00"
+    },
+    {
+      "name": "diy_little_yellow",
+      "value": "#FFF59D"
+    },
+    {
+      "name": "diy_some_yellow",
+      "value": "#FDD835"
+    },
+    {
+      "name": "diy_little_green",
+      "value": "#A5D6A7"
+    },
+    {
+      "name": "diy_some_green",
+      "value": "#43A047"
+    },
+    {
+      "name": "diy_little_cyan",
+      "value": "#80DEEA"
+    },
+    {
+      "name": "diy_some_cyan",
+      "value": "#00ACC1"
+    },
+    {
+      "name": "diy_little_blue",
+      "value": "#B3E5FC"
+    },
+    {
+      "name": "diy_some_blue",
+      "value": "#64B5F6"
+    },
+    {
+      "name": "diy_little_purple",
+      "value": "#CE93D8"
+    },
+    {
+      "name": "diy_some_purple",
+      "value": "#8E24AA"
+    },
+    {
+      "name": "diy_little_gray",
+      "value": "#E0E0E0"
+    },
+    {
+      "name": "diy_some_gray",
+      "value": "#9E9E9E"
+    }
+  ]
+}
