@@ -6,9 +6,11 @@
 
 | 应用 | 一句话 | 技术亮点 | 源码 |
 | --- | --- | --- | --- |
-| [MusicPlayer](apps/music-player/) | 在线音乐播放，歌单管理与多页面状态同步 | AVPlayer 单例状态机、Emitter 跨页广播、三种播放模式、组件化 | ✅ 本仓库 |
-| [MindPlan](apps/mindplan/) | AI 日程规划，输入任务自动编排时间轴 | AGC 云函数、关系型数据库（RDB）、Tab 导航、ArkTS 严格类型 | ✅ 本仓库 |
-| [面试通](apps/interview-quiz/) | AI 面试题库，分类浏览 / 搜索 / AI 问答 / 录音练习 | 四层网络封装、Token/401 全局跳转、大模型多轮对话 | 📄 项目复盘 |
+| [MusicPlayer](apps/music-player/) | 在线音乐播放，歌单管理与多页面状态同步 | AVPlayer 单例状态机、Emitter 跨页广播、三种播放模式、组件化 | [MusicPlayer](https://github.com/yan123-yan-oops/MusicPlayer) |
+| [MindPlan](apps/mindplan/) | AI 日程规划，输入任务自动编排时间轴 | AGC 云函数、关系型数据库（RDB）、Tab 导航、ArkTS 严格类型 | [MindPlan](https://github.com/yan123-yan-oops/MindPlan)（开发中） |
+| [面试通](apps/interview-quiz/) | AI 面试题库，分类浏览 / 搜索 / AI 问答 / 录音练习 | 四层网络封装、Token/401 全局跳转、大模型多轮对话 | [QuestionBank](https://github.com/yan123-yan-oops/QuestionBank)（master 分支） |
+
+> 本仓库是**索引与项目说明**；源码在各自的仓库里，点"源码"列直达。
 
 ## 技术栈
 

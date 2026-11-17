@@ -2,7 +2,7 @@
 
 个人项目 · HarmonyOS API 16 · ArkTS
 
-> 源码在 `src/`，可直接用 DevEco Studio 打开 `src/` 这一层。
+> 源码仓库：https://github.com/yan123-yan-oops/MusicPlayer （main 分支）
 
 ## 截图
 

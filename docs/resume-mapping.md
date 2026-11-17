@@ -6,7 +6,7 @@
 
 | 简历表述 | 证据位置 |
 | --- | --- |
-| 四层网络请求架构（请求/拦截/业务/模型） | [apps/interview-quiz/README.md](../apps/interview-quiz/README.md) 第 1 节 |
+| 四层网络请求架构（请求/拦截/业务/模型） | [QuestionBank/master](https://github.com/yan123-yan-oops/QuestionBank) + 本仓库 `apps/interview-quiz/README.md` 第 1 节 |
 | Token 自动注入、401 全局跳转 | 同上，拦截层职责 |
 | AI 问答独立 axios 实例、多轮上下文 | 同上，第 2 节 |
 | 录音生命周期封装（AVRecorder/AVPlayer） | 同上，第 4 节 |

@@ -2,6 +2,9 @@
 
 个人项目 · HarmonyOS NEXT / API 22 · ArkTS
 
+> 源码仓库：https://github.com/yan123-yan-oops/MindPlan （main 分支）
+> 状态：开发中（页面骨架 + 云函数 + 数据层已完成，AI 编排与番茄钟联动仍在完善）。
+
 ## 截图
 
 | 任务输入 | 时间轴 | 专注计时 | 我的 |
