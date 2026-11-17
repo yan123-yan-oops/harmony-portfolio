@@ -8,7 +8,7 @@
 | --- | --- | --- | --- |
 | [MusicPlayer](apps/music-player/) | 在线音乐播放，歌单管理与多页面状态同步 | AVPlayer 单例状态机、Emitter 跨页广播、三种播放模式、组件化 | ✅ 本仓库 |
 | [MindPlan](apps/mindplan/) | AI 日程规划，输入任务自动编排时间轴 | AGC 云函数、关系型数据库（RDB）、Tab 导航、ArkTS 严格类型 | ✅ 本仓库 |
-| [面试通](apps/interview-quiz/) | AI 面试题库，分类浏览 / 搜索 / AI 问答 / 录音练习 | 四层网络封装、Token/401 全局跳转、大模型多轮对话 | ⚠️ 未公开（仓库暂空） |
+| [面试通](apps/interview-quiz/) | AI 面试题库，分类浏览 / 搜索 / AI 问答 / 录音练习 | 四层网络封装、Token/401 全局跳转、大模型多轮对话 | 📄 项目复盘 |
 
 ## 技术栈
 
@@ -43,8 +43,23 @@
 
 ## 怎么跑
 
-- 安装 DevEco Studio（API 12+，本项目基于 HarmonyOS NEXT / API 22 验证）
+- 安装 DevEco Studio（API 12+；MindPlan 基于 API 22，MusicPlayer 基于 API 16 验证）
 - 打开对应应用目录，等待 ohpm 同步
 - 连接真机或模拟器，Run
 
-云函数相关（MindPlan）需要 AGC 侧部署，说明见 `apps/mindplan/README.md`。
+云函数相关（MindPlan）需要在 AGC 侧部署 `generate-plan`，说明见 `apps/mindplan/README.md`。
+
+## 面试官怎么用这个仓库
+
+- 想快速看能力：看本页三个项目的一句话 + 技术亮点；
+- 想核对简历：对照 [docs/resume-mapping.md](docs/resume-mapping.md)，每条简历表述都标了证据位置；
+- 想看代码：`apps/music-player/src`、`apps/mindplan/app` 是完整可编译的鸿蒙工程；
+- 想看设计思路：`apps/interview-quiz/README.md` 是项目复盘（含"没做好"的部分），`docs/architecture.md` 是三个应用共用的分层与状态管理。
+
+## 截图位
+
+```
+apps/music-player/screenshots/   1-home.png  2-play.png  3-list.png
+apps/mindplan/screenshots/       1-input.png 2-timeline.png 3-pomo.png
+apps/interview-quiz/screenshots/ 1-home.png  2-ai.png    3-record.png
+```
